@@ -1,23 +1,22 @@
-class Product:
-    # # коммерческие и логистические переменные:
-    # cost = 340000
-    # storage = 'Saint-Petersburg'
+
+class Company:
+
+    #  Здесь вводятся реквизиты компании из карточки партнёра
+    #  От этого класса, по замыслу, будет наследоваться класс Horda (название компании)
     #
-    # # Физико-химические переменные
-    # amine_number = 1300  # мгKOH на ммл
-    # color = 'brown'
-    # density = 1000  # кг на метр кубический
+    #
 
-    #  def produce(self, amount) amount - колличество проивзодимого продукта
-    #  def
-
-
-
-
-    def __init__(self):
+    def __int__(self):
         pass
 
-    def produce(self, amount):
+
+class Horda(Company):
+
+    def __int__(self):
         pass
 
-    def move(sef,):
+    def pay(self):
+        pass
+
+    def get_paid(self):
+        pass
