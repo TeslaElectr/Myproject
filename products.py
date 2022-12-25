@@ -38,4 +38,5 @@ class RoadBase(Product):
     def move(self):
         pass
 
-
+    def repacking(self):
+        pass
