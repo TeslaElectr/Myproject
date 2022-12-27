@@ -27,13 +27,13 @@ class Product:
         pass
 
 
-class RoadBase(Product):
+class RoadBase265(Product):
 
     def __init__(self):
         pass
 
-    def produce(self, amount):
-        pass
+    def produce(self):
+        return 'Successful'
 
     def move(self):
         pass
