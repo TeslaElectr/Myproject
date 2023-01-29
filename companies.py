@@ -51,6 +51,34 @@ class Company:
     def get_contact_numbers(self):
         return self.contact_numbers
 
+    @property
+    def get_INN(self):
+        return self.INN
+
+    @property
+    def get_KPP(self):
+        return self.KPP
+
+    @property
+    def get_bank(self):
+        return self.bank
+
+    @property
+    def get_checking_account(self):
+        return self.checking_account
+
+    @property
+    def get_corr_account(self):
+        return self.corr_account
+
+    @property
+    def get_bik(self):
+        return self.bik
+
+    @property
+    def get_post_code(self):
+        return self.post_code
+
 
 class Horda(Company):
 
@@ -71,8 +99,8 @@ class Horda(Company):
 
 
 def main():
-    horda = Horda
-    return print(horda.buy_product(horda, 'RoadBase265'))
+    horda = Horda()
+    return print(horda.buy_product('RoadBase265'))
 
 
 if __name__ == '__main__':
